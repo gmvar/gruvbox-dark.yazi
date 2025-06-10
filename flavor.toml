@@ -19,11 +19,6 @@ marker_copied   = { fg = "#b8bb26", bg = "#b8bb26" }
 marker_cut      = { fg = "#fb4934", bg = "#fb4934" }
 marker_marked   = { fg = "#83a598",   bg = "#83a598" }
 
-# Tab
-tab_active   = { fg = "#3c3836", bg = "#a89984" }
-tab_inactive = { fg = "#a89984", bg = "#3c3836" }
-tab_width    = 1
-
 # Count
 count_copied   = { fg = "#282828", bg = "#b8bb26", bold = true }
 count_cut      = { fg = "#282828", bg = "#fb4934", bold = true }
@@ -38,6 +33,15 @@ syntect_theme = ""
 
 # : }}}
 
+# : Tab {{{
+
+[tabs]
+active   = { fg = "#3c3836", bg = "#a89984" }
+inactive = { fg = "#a89984", bg = "#3c3836" }
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+# : }}}
 
 # : Mode {{{
 
