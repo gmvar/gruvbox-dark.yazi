@@ -208,6 +208,8 @@ rules = [
 	# Dummy file
 	{ url = "*", is = "dummy", bg = "lightred" },
 	{ url = "*/", is = "dummy", bg = "lightred" },
+  # Empty files
+  { mime = "inode/empty", fg = "lightred" },
 	# Fallback
 	{ url = "*/", fg = "lightblue" }
 ]
