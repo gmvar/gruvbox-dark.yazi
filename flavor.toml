@@ -227,3 +227,37 @@ tbl_col  = { fg = "lightblue" }
 tbl_cell = { fg = "lightyellow", reversed = true }
 
 # : }}}
+
+# : Icons {{{
+
+[icon]
+prepend_dirs = [
+  { name = "Desktop", text = "󰍹", fg = "lightblue" },
+  { name = "Documents", text = "󱉟", fg = "lightblue" },
+  { name = "Books", text = "", fg = "lightblue" },
+  { name = "Study", text = "󰗚", fg = "lightblue" },
+  { name = "Downloads", text = "", fg = "lightblue" },
+  { name = "Games", text = "", fg = "lightblue" },
+  { name = "Music", text = "", fg = "lightblue" },
+  { name = "Pictures", text = "", fg = "lightblue" },
+  { name = "Photos", text = "", fg = "lightblue" },
+  { name = "Screenshots", text = "󰹑", fg = "lightblue" },
+  { name = "Wallpapers", text = "󰸉", fg = "lightblue" },
+  { name = "Programming", text = "󰘦", fg = "lightblue" },
+  { name = "Code", text = "", fg = "lightblue" },
+  { name = "Public", text = "󰀑", fg = "lightblue" },
+  { name = "Source", text = "󰘬", fg = "lightblue" },
+  { name = "Shares", text = "", fg = "lightblue" },
+  { name = "Templates", text = "", fg = "lightblue" },
+  { name = "Utility", text = "", fg = "lightblue" },
+  { name = "Tools", text = "", fg = "lightblue" },
+  { name = "Vault", text = "", fg = "lightblue" },
+  { name = "Videos", text = "", fg = "lightblue" },
+  { name = "Workspaces", text = "󰍺", fg = "lightblue" },
+  { name = "Dashboard", text = "", fg = "lightblue" },
+  { name = "Cloud", text = "󰅟", fg = "lightblue" },
+]
+
+prepend_conds = [{ if = "dir", text = "", fg = "lightblue" }]
+
+# : }}}
